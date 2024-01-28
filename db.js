@@ -2,9 +2,9 @@
 const mysql = require('mysql');
 
 const db = mysql.createConnection({
-  host: 'viaduct.proxy.rlwy.net',
+  host: 'localhost',
   user: 'root',
-  password: 'acbADF446Db2Gdfedf3Eb3fEAc3d1Aac',
+  password: '',
   database: 'formulario_fc',
 });
 
